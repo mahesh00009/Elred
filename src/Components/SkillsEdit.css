@@ -1,0 +1,54 @@
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.individualSkills{
+    border: 1px solid black;
+}
+.displaySkills{
+    border-bottom: 3px solid rgb(125, 125, 125);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+.displaySkills button{
+    border-radius: 10px;
+}
+.skillTitle{
+    margin-bottom: 30px;
+}
+
+.selectedSkills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.selectSkills button{
+    background-color: rgb(0, 147, 0);
+    color:white;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.selectedSkills button{
+    display: flex;
+    gap: 8px;
+}
+
+.showSkills{
+    display: flex;
+    overflow-x: scroll;
+    gap:10px;
+}
+.showSkills::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,16 @@
+
+
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.skills{
+    display: flex;
+    gap:30px;
+    overflow-x: scroll;
+}
+
+.skillsContainer h4{
+    cursor: pointer;
+}
